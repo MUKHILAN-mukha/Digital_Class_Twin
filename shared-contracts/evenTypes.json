@@ -1,0 +1,19 @@
+{
+  "student": [
+    "attendance_marked",
+    "test_score_recorded",
+    "activity_completed"
+  ],
+  "teacher": [
+    "teacher_attendance",
+    "marks_uploaded",
+    "behavior_observation"
+  ],
+  "parent": [
+    "parent_feedback",
+    "acknowledged_alert"
+  ],
+  "admin": [
+    "system_configuration_change"
+  ]
+}

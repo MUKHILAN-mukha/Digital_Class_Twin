@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+    "child_id",
+    "risk_level",
+    "explanation",
+    "last_updated"
+  ],
+  "properties": {
+    "child_id": { "type": "string" },
+    "academic_score": { "type": ["number", "null"] },
+    "attendance_score": { "type": ["number", "null"] },
+    "behavior_score": { "type": "number" },
+    "risk_level": {
+      "type": "string",
+      "enum": ["Low", "Medium", "High"]
+    },
+    "trend_summary": {
+      "type": ["string", "null"],
+      "enum": ["up", "down", "stable", null]
+    },
+    "explanation": { "type": "object" },
+    "last_updated": { "type": "string", "format": "date-time" }
+  }
+}

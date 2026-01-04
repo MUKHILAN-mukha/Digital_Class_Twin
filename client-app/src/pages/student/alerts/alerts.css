@@ -1,0 +1,153 @@
+.alerts-page {
+  padding: 32px;
+  background: #f5f6fa;
+  min-height: 100vh;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* HEADER */
+.alerts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.alerts-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.alerts-header p {
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.ghost {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* SYSTEM BANNER */
+.system-banner {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.dot.green {
+  width: 10px;
+  height: 10px;
+  background: #22c55e;
+  border-radius: 50%;
+}
+
+.sync {
+  margin-left: auto;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 24px;
+}
+
+.tabs span {
+  padding-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tabs .active {
+  color: #7c3aed;
+  border-bottom: 2px solid #7c3aed;
+}
+
+/* CRITICAL ALERT */
+.alert.critical {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  color: white;
+  padding: 28px;
+  border-radius: 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 12px 40px rgba(124, 58, 237, 0.35);
+}
+
+.alert.critical h2 {
+  font-size: 22px;
+  margin: 14px 0;
+}
+
+.alert .badge {
+  background: rgba(255,255,255,0.2);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.primary {
+  background: #fff;
+  color: #7c3aed;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+}
+
+.secondary {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* ALERT GRID */
+.alert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.alert-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+}
+
+.alert-card span {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.alert-card a {
+  color: #7c3aed;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}

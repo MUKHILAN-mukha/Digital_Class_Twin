@@ -1,0 +1,71 @@
+.risk-page {
+  padding: 24px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.risk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.risk-header h1 {
+  margin: 0;
+}
+
+.status {
+  color: #22c55e;
+  font-size: 13px;
+}
+
+.risk-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+.card.large {
+  height: 340px;
+}
+
+.bar-row {
+  margin-bottom: 14px;
+}
+
+.bar-row span {
+  font-size: 13px;
+}
+
+.bar {
+  height: 8px;
+  border-radius: 999px;
+  margin-top: 6px;
+}
+
+.bar.blue { width: 45%; background: #3b82f6; }
+.bar.green { width: 20%; background: #10b981; }
+.bar.purple { width: 35%; background: #8b5cf6; }
+
+.highlight {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: white;
+}
+
+.highlight button {
+  margin-top: 12px;
+  background: white;
+  color: #7c3aed;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
